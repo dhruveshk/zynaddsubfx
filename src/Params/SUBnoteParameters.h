@@ -44,7 +44,7 @@ class SUBnoteParameters:public Presets
         //Parameters
         //AMPLITUDE PARAMETERS
         unsigned char   Pstereo; //0 for mono,1 for stereo
-        float   Volume;
+        unsigned char   PVolume;
         unsigned char   PPanning;
         float   AmpVelocityScaleFunction;
         EnvelopeParams *AmpEnvelope;
